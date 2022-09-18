@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>폼 생성 방법 (get)</h1>
+
+  <form action="" method="get">
+    <fieldset>
+
+      <legend>내 정보 입력</legend>
+      <label for="name">이름:</label>
+      <input id="name" type="text" name="name" placeholder="이름 입력">
+  
+      <label for="birthday">생일:</label>
+      <input id="birthday" type="date" name="birthday">
+  
+      <div>
+        <span>성별:</span>
+        <input id="male" type="radio" name="gender" value="male"><label for="male">남자</label>
+        <input id="female" type="radio" name="gender" value="female"><label for="female">여자</label>
+        <input id="secret" type="radio" name="gender" value="secret"><label for="secret">공개 안함</label>
+      </div>
+  
+      <div>
+        <span>학년:</span>
+        <select name="grade" id="grade">
+          <option value="1">1학년</option>
+          <option value="2">2학년</option>
+          <option value="3">3학년</option>
+          <option value="4">4학년</option>
+          <option value="5">5학년</option>
+          <option value="6">6학년</option>
+        </select>  
+      </div>
+  
+      <div>
+        <span>과목:</span>
+        <input id="korean" type="checkbox" name="subject" value="korean"><label for="korean">국어</label>
+        <input id="english" type="checkbox" name="subject" value="english"><label for="english">영어</label>
+        <input id="math" type="checkbox" name="subject" value="math"><label for="math">수학</label>
+        <input id="coding" type="checkbox" name="subject" value="coding"><label for="coding">코딩</label>
+      </div>
+  
+    </fieldset>
+
+    <br>
+    <input type="submit">
+  </form>
+</body>
+</html>

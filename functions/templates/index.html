@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p {
+      color: blue;
+      font-size: 25px;
+    }
+
+    div {
+      border: 3px dashed red;
+      border-radius: 20px;
+    }
+    
+    span {
+      color: green;
+    }
+
+    span > ins {
+      color: blue;
+      cursor: pointer;
+    }
+
+    .sp {
+      color: black;
+    }
+
+    #b {
+      display: block;
+    }
+
+    #em {
+      display: inline;
+      height: 50px;
+      width: 100px;
+      margin-top: 10px;
+      background-color: lightgreen;
+    }
+
+    #ins {
+      display: inline-block;
+      height: 50px;
+      width: 100px;
+      margin-top: 10px;
+      background-color: skyblue;
+    }
+
+    .button {
+      font-size: 20px;
+      color: rgb(209, 194, 246);
+      background-color: rgb(134, 99, 217);
+      border: 2px solid rgb(97, 61, 180);
+      border-radius: 10px;
+      padding: 10px 20px;
+      /* 상하 좌우 */
+      /* 상 좌우 하 */
+      /* 상 우 하 좌 */
+    }
+  </style>
+</head>
+<body>
+  나의 첫 번째 장고 웹페이지입니다.
+  <h1 style="background-color: pink">제목(Header) 태그는 h1부터</h1>
+  <h6>h6 까지 있습니다.</h6>
+  <p>p(Paragraph) 태그는 문단을 구분할 때 사용합니다.</p>
+  <div>div(Division) 태그는 레이아웃을 구분할 때 사용합니다.</div>
+  <span>span 태그를 사용하면 줄바꿈이 되지 않습니다.</span>
+  <span class="sp" id="b"><b>굵은글씨</b></span>
+  <span class="sp" id="em"><em>기울임</em></span>
+  <span class="sp" id="ins"><ins>밑줄</ins></span>
+  <span class="sp"><mark>형광펜</mark></span>
+  <span class="sp"><s>취소선</s></span>
+  <!-- 주석으로 만들고 싶은 부분을 드래그 한 후 'ctrl + /'를 누르면 해당 부분이 주석이 됩니다. -->
+  <!-- 순서 있는 리스트 -->
+  <ol>
+    <li>사과</li>
+    <li>포도</li>
+    <li>귤</li>
+  </ol>
+  <!-- 순서 없는 리스트 -->
+  <ul>
+    <li>사과</li>
+    <li>포도</li>
+    <li>귤</li>
+  </ul>
+  <span class="button">버튼</span>
+</body>
+</html>
